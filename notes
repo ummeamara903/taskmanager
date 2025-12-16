@@ -1,0 +1,27 @@
+✅ 1. LOGGING — “Diary of your application”
+Logging means your app writes down everything important that happens — like a diary or CCTV footage.
+
+✅ 2. BACKGROUND TASKS — “Do it later while user is free”
+Background tasks mean the user gets the response quickly, and the heavy work continues in the background after the response is sent.
+
+             line to check all tables in databse postgre
+SELECT table_name 
+FROM information_schema.tables 
+WHERE table_schema = 'public';
+
+
+3.nextjs setup 
+install nodejs
+npx create-next-app@latest taskmanagerfront
+
+
+4.Axios
+
+What it is: A tool for making API calls.
+
+Better than fetch: Easy syntax, handles JSON automatically, can add headers like tokens.
+
+axios.get('/tasks', { headers: { Authorization: `Bearer ${token}` } })
+
+
+Analogy: Axios = VIP waiter who understands special requests easily.
